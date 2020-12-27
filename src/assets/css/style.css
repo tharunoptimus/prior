@@ -1,0 +1,224 @@
+@font-face {
+    font-family: "jamun";
+    src: url(newFont.ttf) format("truetype");
+}
+
+* {
+    font-family: "jamun",sans-serif, arial;
+    color: #545454;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: "jamun";
+}
+
+p {
+    font-size: 23px; 
+    margin-top:3px; 
+    text-align: left; 
+    color: #34A853;
+}
+
+a{
+    color: #fab1a0;
+    text-decoration: none;
+}
+
+strong{
+    color: #ff3f34;
+}
+
+em{
+    color: #ffa801
+}
+
+.wrapper {
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;   
+    font-family: "jamun";
+}
+
+.wrapper.indexPage {
+    justify-content: center;
+    font-family: "jamun";
+}
+
+
+.information a:hover {
+    text-decoration: underline;
+    font-size: 100%;
+    color: #000000;
+    transition-duration: 500ms;
+    font-family: "jamun";
+}
+
+p.headertab {
+    font-family: "jamun";
+}
+
+
+.textBox {
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.05), 0 0 0 1px rgba(0,0,0,0.06);
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 70%;
+    max-width: 630px;
+    color: #000;
+    font-family: "jamun";
+}
+
+textarea { 
+    resize: both; 
+} /* none|horizontal|vertical|both */
+textarea.vert { 
+    resize: vertical; 
+}
+textarea.noResize { 
+    resize: none; 
+}
+
+textarea { 
+    resize: vertical; 
+    max-height: 300px; 
+    min-height: 243px; 
+}
+
+.mainSection .logoContainert {
+    width: 250px;
+    text-align: center;
+    font-family: "jamun";
+}
+
+.logoContainert img {
+    width: 100%;
+    font-family: "jamun";
+}
+.tallheadposter {
+	position: relative;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    list-style: none;
+    height: 80px;
+    margin: 0px 0% 12px 0%;">
+}
+
+.tallheadposter img{
+	padding-top: 0px;
+    padding-bottom: 0px;
+    /*height: 61px; */height: 47px;
+    align-items: center;
+}
+
+.chat_data{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    font-family: 'jamun';
+    border-radius: 7px;
+    border: none;
+    background-color: #fff;
+    margin: 12px 6px 11px 6px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 2px 6px 2px rgba(60,64,67,0.149);
+    display: flex;
+    padding: 3%;
+}
+
+.username {
+    height: 28px; 
+    font-size: 18px;
+    color: #4285F4;
+}
+
+.timedate {
+    height: 22px;
+}
+
+.time {
+    font-size: 15px; 
+    color: #EA4335
+}
+
+.tallheadpostera {
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    list-style: none;
+    height: 10px;
+    margin: 0px -0% 18px 0%;
+    align-content: center;
+    align-items: center;
+}
+
+.announce p{
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+.tallheadpostert {
+    position: relative;
+    align-items: left;display: flex;
+    flex: 1;border: 0;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    list-style: none;
+    height: 27px;
+    margin: 0px -0% 4px 0%;
+}
+
+.timedated {
+    height: 22px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.timed {
+    font-size: 11px; 
+    color: #FEBE05
+}
+
+
+.panda {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.newFooter {
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    border: 0;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    list-style: none;
+    height: 80px;
+    margin: 75px 0% 0px 0%;
+}
