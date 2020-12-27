@@ -9,3 +9,5 @@ Import the file 'announcement.sql file
 Download the src folder to your htdocs file. 
 
 Go to the USERS table to add more users to make an announement.
+
+The Visual Editor made possible by the plugin by https://github.com/ckeditor/
