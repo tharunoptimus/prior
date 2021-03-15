@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "jamun";
+    src: url(GoogleSans-Medium.ttf) format("truetype");
+}
+
+* {
+    font-family: "jamun", sans-serif, arial;
+    color: #545454;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: "jamun";
+}
+
+p {
+    font-size: 23px; 
+    margin-top:3px; 
+    text-align: left; 
+    color: #34A853;
+}
+
+a{
+    color: #fab1a0;
+    text-decoration: none;
+}
+
+strong{
+    color: #ff3f34;
+}
+
+em{
+    color: #ffa801
+}
+.chat_data{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    font-family: &quot;jamun&quot;;
+    /* height: 110px; */
+    border-radius: 7px;
+    border: none;
+    background-color: #fff;
+    margin: 12px 6px 11px 6px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 2px 6px 2px rgba(60,64,67,0.149);
+    display: flex;
+    padding: 3%;
+}
+
+.username {
+    height: 28px; 
+    font-size: 18px;
+    color: #4285F4;
+}
+
+.tallheadpostert {
+    position: relative;
+    align-items: left;
+    /* flex-direction: column; */
+    display: flex;
+    flex: 1;
+    /* justify-content: center; */
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    list-style: none;
+    height: 27px;
+    margin: 0px -0% 4px 0%;
+}
+
+.timedated {
+    height: 22px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.timed {
+    font-size: 11px; 
+    color: #FEBE05
+}
+
+.time {
+    font-size: 15px; 
+    color: #EA4335
+}
+.timedate {
+    height: 22px;
+}

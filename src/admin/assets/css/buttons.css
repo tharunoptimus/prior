@@ -1,0 +1,30 @@
+.but{
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.i{
+	background-color: #ffa801;
+	color: #000;
+}
+
+.b{
+	background-color: #ff3f34;
+	color: #000;
+}
+
+.u{
+	background-color: #3498db;
+	color: #000;
+}
+.l{
+	background-color: #f1c40f;
+	color: #000;
+}
