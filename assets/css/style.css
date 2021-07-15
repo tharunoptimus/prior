@@ -1,0 +1,418 @@
+@font-face {
+    font-family: jamun;
+    src: url(GoogleSans-Medium.ttf) format("truetype");
+    font-display: swap;
+}
+* {
+    font-family: jamun, sans-serif, arial;
+    color: #545454;
+    font-weight: initial;
+}
+body,
+html {
+    margin: 0;
+    height: 100%;
+    font-family: jamun;
+}
+p {
+    font-size: 23px;
+    margin-top: 3px;
+    text-align: left;
+    color: #00a4ef;
+}
+a {
+    color: #fab1a0;
+    text-decoration: none;
+}
+strong {
+    color: #ff3f34;
+}
+em {
+    color: #ffa801;
+}
+#topBar {
+    display: flex;
+    width: 95%;
+}
+#leftTopBar {
+    float: left;
+    width: 100px;
+}
+#rightTopBar {
+    float: right;
+    width: 100px;
+}
+#centerTopBar {
+    margin: 0 auto;
+    width: 100px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: jamun;
+}
+.wrapper.indexPage {
+    justify-content: center;
+    font-family: jamun;
+}
+.mainSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: jamun;
+}
+.mainSection .searchContainer {
+    margin-top: 20px;
+    width: 100%;
+    font-family: jamun;
+}
+.mainSection .searchContainer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: jamun;
+}
+.searchContainer .searchButton {
+    color: #757575;
+    background-color: #f5f5f5;
+    border: none;
+    height: 36px;
+    width: 125px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: initial;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: 0;
+    font-family: jamun;
+}
+.searchContainer .searchButton:hover {
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
+    color: #757575;
+    background-color: #f5f5f5;
+    border: none;
+    height: 36px;
+    width: 125px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: initial;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: 0;
+    font-family: jamun;
+}
+.searchBox {
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.06);
+    height: 44px;
+    border-radius: 10px;
+    outline: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 70%;
+    max-width: 630px;
+    color: #000;
+    font-family: jamun;
+    margin: 0.5em;
+}
+.searchBox:hover {
+    border: none;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
+    height: 44px;
+    border-radius: 10px;
+    outline: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 70%;
+    max-width: 630px;
+    color: #000;
+    font-family: jamun;
+    margin: 0.5em;
+}
+.mainSection .logoContainer {
+    width: 250px;
+    text-align: center;
+    font-family: jamun;
+}
+.logoContainer img {
+    width: 75%;
+    font-family: jamun;
+}
+.header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+    font-size: 75%;
+    font-family: jamun;
+}
+.header a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: jamun;
+}
+.header a:hover {
+    text-decoration: underline;
+    font-family: jamun;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 75%;
+    font-family: jamun;
+}
+.footer a {
+    text-decoration: none;
+    font-weight: 400;
+    transition-duration: 0.5s;
+    font-family: jamun;
+}
+.footer a:hover {
+    text-decoration: underline;
+    font-size: 100%;
+    color: #08d0f3;
+    transition-duration: 0.5s;
+    font-family: jamun;
+}
+.information a:hover {
+    text-decoration: underline;
+    font-size: 100%;
+    color: #000;
+    transition-duration: 0.5s;
+    font-family: jamun;
+}
+.information a {
+    text-decoration: none;
+    transition-duration: 0.5s;
+    font-family: jamun;
+}
+.headertab p {
+    font-family: jamun, Verdana, Tahoma;
+}
+p.headertab {
+    font-family: jamun;
+}
+.textBox {
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    outline: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 70%;
+    max-width: 630px;
+    color: #000;
+    font-family: jamun;
+}
+textarea {
+    resize: both;
+}
+textarea.vert {
+    resize: vertical;
+}
+textarea.noResize {
+    resize: none;
+}
+textarea {
+    resize: vertical;
+    max-height: 300px;
+    min-height: 243px;
+}
+.mainSection .logoContainert {
+    width: 250px;
+    text-align: center;
+    font-family: jamun;
+}
+.logoContainert img {
+    width: 100%;
+    font-family: jamun;
+}
+.tallheadposter {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    list-style: none;
+    margin: 0;
+}
+.tallheadposter img {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 40px;
+    align-items: center;
+}
+.chat_data {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    font-family: jamun;
+    border-radius: 7px;
+    border: none;
+    background-color: #fff;
+    margin: 12px 6px 11px 6px;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
+    padding: 3%;
+}
+.username {
+    height: 28px;
+    font-size: 18px;
+    color: #7fba00;
+}
+.timedate {
+    height: 22px;
+}
+.time {
+    font-size: 15px;
+    color: #ea4335;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 75%;
+    font-family: jamun;
+}
+.footer a {
+    text-decoration: none;
+    font-weight: 400;
+    transition-duration: 0.5s;
+    font-family: jamun;
+}
+.footer a:hover {
+    text-decoration: underline;
+    font-size: 100%;
+    color: #08d0f3;
+    transition-duration: 0.5s;
+    font-family: jamun;
+}
+.tallheadpostera {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    list-style: none;
+    margin: 0;
+    align-content: center;
+    align-items: center;
+}
+.announce p {
+    margin-top: 0;
+    font-size: 30px;
+}
+.tallheadpostert {
+    position: relative;
+    align-items: left;
+    display: flex;
+    flex: 1;
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    list-style: none;
+    height: 27px;
+    margin: 0 0 4px 0;
+}
+.timedated {
+    height: 22px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.timed {
+    font-size: 11px;
+    color: #febe05;
+}
+.panda {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.top {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    padding: 5px;
+    margin: 0 1%;
+}
+.flexDisplay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ham {
+    background-color: transparent;
+    border: 1px solid #fff;
+    outline: 0;
+}
+.greetings {
+    display: flex;
+    padding: 5px;
+    margin: 0 3%;
+}
+.priorHolder {
+    margin: 1% 2%;
+}
+.hamMenu {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 75px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#closeHam {
+    z-index: 2;
+}
+.styleButton {
+    color: #757575;
+    background-color: #f5f5f5;
+    border: none;
+    height: 36px;
+    width: 125px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: 0;
+    font-family: jamun;
+}
+.newButton {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    outline: 0;
+}
+.newButton1 {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    outline: 0;
+}
+.menu {
+    margin: 0;
+    width: 100%;
+}
+.menuHead {
+    margin: 15px auto;
+}

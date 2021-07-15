@@ -1,0 +1,58 @@
+{
+    "short_name": "Prior",
+    "name": "Priority Messages Notifier",
+    "icons": [
+        {
+            "src": "assets/images/logo.png",
+            "type": "image/png",
+            "sizes": "5000x5000",
+            "purpose": "any maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Instant Prior",
+            "short_name": "Instant",
+            "url": "mod/instant.php",
+            "icons": [
+            { "src": "manifestIcons/instant.png", "sizes": "256x256", "type": "image/png" }
+            ]
+        },
+        {
+            "name": "Mod Page",
+            "short_name": "Mod",
+            "url": "mod",
+            "icons": [
+            { "src": "manifestIcons/mod.png", "sizes": "256x256", "type": "image/png" }
+            ]
+        },
+        {
+            "name": "Good Man From Earth",
+            "short_name": "Good Man",
+            "url": "good",
+            "icons": [
+            { "src": "manifestIcons/good.png", "sizes": "225x225", "type": "image/png" }
+            ]
+        },
+        {
+            "name": "Tags By Mods",
+            "short_name": "Tags",
+            "url": "tags",
+            "icons": [
+            { "src": "manifestIcons/tags.png", "sizes": "256x256", "type": "image/png" }
+            ]
+        },
+        {
+            "name": "Settings",
+            "short_name": "Settings",
+            "url": "settings",
+            "icons": [
+            { "src": "manifestIcons/settings.png", "sizes": "300x300", "type": "image/png" }
+            ]
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}

@@ -1,0 +1,29 @@
+3.  Manage Push Notifications:
+    ->  Install serviceWorkers to handle the notifications and serve push notifications
+            // Keep this on hold. Will do after some time.
+
+6.  Convert password to md5
+
+Prior Disadvantages (current) :
+
+1. Mod users need to login everytime they post something which is really annoying when they need to do quickly and it is possible that they enter the wrong userid while logging in
+2. Unlike a native app, end users need to visit a web page in a browser everytime they need to get updates of the information. 
+3. Unlike WhatsApp, end users don't get real-time updates or push notifications of new priors.
+4. The domain rf.gd is not working for some end users.
+5. Prior will be unavailable for a day if someone tries brute force login or ping testing and will get destroyed if someone does an SQL Injection.
+6. Users are forced to use chromium browsers for better compatibility of the website while others tend to use Firefox and Safari.
+7. Prior tagging is unavailable as moderators tend to forward the text from course instructors and self reply the forward with the staff's name.
+
+Upcoming Prior feature (To be developed):
+
+1. Individual end user account login for personalized experience. 
+2. Comment feature on Prior (like YouTube and the option to disable it for certain prior)
+3. Prior Push Notifications
+4. Website to PWA conversion for native app experience
+5. Cookie storage to prevent asking users to login everytime
+6. Good Man From Earth integration
+7. Ability to upload images without hosting it separately 
+(with SQL (() => {"instructor" : "Krishna", 
+"method" : "SQL"
+});
+8. Ability to create new tags according to moderators. For eg: new competition, new functions or new debate section etc

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prior</title>
+    
+    <script src="https://kit.fontawesome.com/ab8c818c9d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <style>
+
+        * {
+        font-family: sans-serif, arial;
+        color: #545454;
+        }
+
+        .wrapper {
+        display: flex;
+        flex-direction: column;
+        }
+
+        .cardHolder {
+        display: flex;
+        flex-direction: row;
+        }
+
+        .card {
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+        transition: 0.3s;
+        width: 40%;
+        margin: 5% 5%;
+        border-radius: 15px;
+        }
+
+        .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+        .container {
+        padding: 2px 16px;
+        }
+
+        .back {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        }
+
+        .info {
+        display: flex;
+        margin: 2% 2%;
+        }
+
+        .cardAnchor {
+        text-decoration: none;
+        }
+    </style>
+</head>
+<body onload="if (location.protocol !== 'https:') {
+    location.replace(`https:${location.href.substring(location.protocol.length)}`);
+}">
+
+    <div class="wrapper">
+
+        <div class="info">
+            <div class="back">    
+                <a href="./" style="text-decoration: none;">
+                    <i class="fas fa-redo-alt" style="font-size: 35px;"></i>&emsp;
+                </a>
+            </div>
+            
+            <div class="title">
+               <h1 style="margin: 0 8%;">Prior</h1>
+            </div>
+        </div>
+
+        <center>
+            <h1>You're currently Offline. Please go online to check for updates.</h1>
+        </center>
+
+        
+    </div>
+
+</body>
+</html>

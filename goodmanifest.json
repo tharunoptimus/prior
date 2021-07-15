@@ -1,0 +1,16 @@
+{
+    "short_name": "Good Man",
+    "name": "Good Man From Earth",
+    "icons": [
+        {
+            "src": "https://raw.githubusercontent.com/doubtda/prior/main/manifestIcons/favicon.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ],
+    "start_url": "https://goodmanfromearth.rf.gd/",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}

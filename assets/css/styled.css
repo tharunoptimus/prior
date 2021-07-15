@@ -1,0 +1,479 @@
+@font-face {
+    font-family: "jamun";
+    src: url(GoogleSans-Medium.ttf) format("truetype");
+}
+
+* {
+    font-family: "jamun",sans-serif, arial;
+    color: #545454;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: "jamun";
+    scroll-behavior: smooth;
+}
+
+p {
+    font-size: 23px;
+    margin-top: 3px;
+    text-align: left;
+    color: #34A853;
+}
+
+a{
+    color: #fab1a0;
+    text-decoration: none;
+}
+
+strong{
+    color: #ff3f34;
+}
+
+em{
+    color: #ffa801
+}
+
+.wrapper {
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;   
+    font-family: "jamun";
+}
+
+.wrapper.indexPage {
+    justify-content: center;
+    font-family: "jamun";
+}
+
+.mainSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "jamun";
+}
+
+.mainSection .searchContainer {
+    margin-top: 20px;
+    width: 100%;
+    font-family: "jamun";
+}
+
+.mainSection .searchContainer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "jamun";
+}
+
+.searchContainer .searchButton {
+
+    color: #757575;
+    background-color: #f5f5f5;
+    border: none;
+    height: 36px;
+    width: 125px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+    font-family: "jamun";
+
+}
+.searchContainer .searchButton:hover {
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 2px 6px 2px rgba(60,64,67,0.149);
+    color: #757575;
+    background-color: #f5f5f5;
+    border: none;
+    height: 36px;
+    width: 125px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+    font-family: "jamun";
+
+}
+
+.searchBox {
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.05), 0 0 0 1px rgba(0,0,0,0.06);
+    height: 44px;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 70%;
+    max-width: 630px;
+    color: #000;
+    font-family: "jamun";
+}
+.searchBox:hover{
+    border: none;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 2px 6px 2px rgba(60,64,67,0.149);
+    height: 44px;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 70%;
+    max-width: 630px;
+    color: #000;
+    font-family: "jamun";
+}
+
+.mainSection .logoContainer {
+    width: 250px;
+    text-align: center;
+    font-family: "jamun";
+}
+
+.logoContainer img {
+    width: 75%;
+    font-family: "jamun";
+}
+
+.header{
+    position:absolute;
+    top:0;
+    right:0;
+    margin-right: 10px;
+    font-size: 75%;
+    font-family: "jamun";
+   }
+
+
+.header a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: "jamun";
+}
+
+.header a:hover {
+    text-decoration: underline;
+    font-family: "jamun";
+}
+
+.footer {
+   
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 75%;
+    font-family: "jamun";
+}
+
+.footer a {
+    text-decoration: none;
+    font-weight: normal;
+    transition-duration: 500ms;
+    font-family: "jamun";
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    font-size: 100%;
+    color: #08d0f3;
+    transition-duration: 500ms;
+    font-family: "jamun";
+}
+
+.information a:hover {
+    text-decoration: underline;
+    font-size: 100%;
+    color: #000000;
+    transition-duration: 500ms;
+    font-family: "jamun";
+}
+
+.information a {
+    text-decoration: none;
+    transition-duration: 500ms;
+    font-family: "jamun";
+}
+
+.headertab p{
+    font-family: "jamun", Verdana, Tahoma;
+}
+
+p.headertab {
+    font-family: "jamun";
+}
+
+
+.textBox {
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.05), 0 0 0 1px rgba(0,0,0,0.06);
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 70%;
+    max-width: 630px;
+    color: #000;
+    font-family: "jamun";
+}
+
+textarea { 
+    resize: both; 
+} /* none|horizontal|vertical|both */
+textarea.vert { 
+    resize: vertical; 
+}
+textarea.noResize { 
+    resize: none; 
+}
+
+textarea { 
+    resize: vertical; 
+    max-height: 300px; 
+    min-height: 243px; 
+}
+
+.mainSection .logoContainert {
+    width: 250px;
+    text-align: center;
+    font-family: "jamun";
+}
+
+.logoContainert img {
+    width: 100%;
+    font-family: "jamun";
+}
+.tallheadposter {
+	position: relative;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    list-style: none;
+    height: 80px;
+    margin: 0px 0% 12px 0%;
+}
+
+.tallheadposter img{
+	padding-top: 0px;
+    padding-bottom: 0px;
+    /*height: 61px; */height: 47px;
+    align-items: center;
+}
+
+.chat_data{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-radius: 7px;
+    border: none;
+    background-color: #fff;
+    min-width: 45%;
+    max-width: 60%;
+    margin: 12px 6px 11px 6px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 2px 6px 2px rgba(60,64,67,0.149);
+    display: flex;
+    padding: 3%;
+}
+
+.username {
+    height: 28px; 
+    font-size: 18px;
+    color: #4285F4;
+}
+
+.timedate {
+    height: 22px;
+}
+
+.time {
+    font-size: 15px; 
+    color: #EA4335
+}
+
+
+.footer {
+   
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 75%;
+    font-family: "jamun";
+}
+
+.footer a {
+    text-decoration: none;
+    font-weight: normal;
+    transition-duration: 500ms;
+    font-family: "jamun";
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    font-size: 100%;
+    color: #08d0f3;
+    transition-duration: 500ms;
+    font-family: "jamun";
+}
+.tallheadpostera {
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    list-style: none;
+    height: 10px;
+    margin: 0px -0% 18px 0%;
+    align-content: center;
+    align-items: center;
+}
+
+.announce p{
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+.tallheadpostert {
+    position: absolute;
+    bottom: 10px;
+    align-items: left;
+    display: flex;
+    flex: 1;
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    list-style: none;
+    height: 27px;
+    margin: 0px -0% 1px 0%;
+}
+
+.timedated {
+    height: 22px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.timed {
+    font-size: 11px; 
+    color: #FEBE05
+}
+
+
+.panda {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.newFooter {
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    border: 0;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    list-style: none;
+    height: 80px;
+    margin: 75px 0% 0px 0%;
+}
+
+.messagespan {
+    margin-top: 20px;
+}
+
+.priorHolder {
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.footnote {
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    margin-left: 28%;
+    align-items: center;
+    margin-right: 28%;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.slides-navigation {
+    position: absolute;
+    z-index: 11;
+    top: 65%;
+    width: 100%;
+    display: flex;
+}
+
+.next {
+    float: right;
+    margin-left: 93%;
+}
+
+.prev {
+    margin-left: 1%;
+}
+
+.leftArrow {
+    width: 30px;
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.rightArrow {
+    width: 30px;
+}
+
+
+.next:hover , .prev:hover{
+    border-radius: 50%;
+    height: 35px;
+    width: 36px;
+    border: 2px solid #000;
+    z-index: 4;
+}

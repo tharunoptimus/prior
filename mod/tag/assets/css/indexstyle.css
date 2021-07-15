@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "jamun";
+    src: url(GoogleSans-Medium.ttf) format("truetype");
+}
+
+* {
+    font-family: "jamun", sans-serif, arial;
+    color: #545454;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;   
+    font-family: "jamun";
+}
+
+.container {
+    padding: 2px 16px; 
+}
+
+.back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.info {
+    display: flex;
+    margin: 2% 2%;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: center;
+    margin: 5% 2%;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.importantField {
+    display: flex;
+    justify-content: center;
+    width: 43%;
+    height: 33px;
+    margin-top: 20px;
+    padding-top: 6px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    border-radius: 10px;
+}
+
+
+.chat_data {
+    display: flex;
+    position: relative;
+    border-radius: 7px;
+    border: none;
+    background-color: #fff;
+    margin: 12px 6px 11px 6px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    padding: 3%;
+    font-family: 'jamun';
+}
+
+.mainSettings {
+    width: 100%;
+}
+
+.taskInfo {
+    display: flex;
+    width: 100%;
+}
+
+.imageHolder {
+    width: 32%;
+}
+
+.taskImage {
+    width: 100%;
+    border-radius: 5px;
+}

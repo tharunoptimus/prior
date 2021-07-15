@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "jamun";
+    src: url(../comments/GoogleSans-Medium.ttf) format("truetype");
+}
+
+* {
+    font-family: "jamun", sans-serif, arial;
+    color: #545454;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: center;
+    margin: 1% 0%;
+    flex-direction: column;
+}
+
+.searchButton {
+    color: #757575;
+    background-color: #f5f5f5;
+    border: none;
+    height: 30px;
+    width: 85px;
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+    cursor: pointer;
+    outline: none;
+    font-family: "jamun";
+}
+
+.chat_data {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    font-family: 'jamun';
+    border-radius: 7px;
+    border: none;
+    background-color: #fff;
+    margin: 12px 6px 11px 6px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 2px 6px 2px rgba(60,64,67,0.149);
+    padding: 0;
+}
+
+.commentmenu {
+    height: 32px;
+    width: 170px;
+    border-radius: 9px;
+}
+
+.comments {
+    padding: 5%;
+}
+
+.username {
+    font-size: 18px;
+    color: #4285F4;
+}
+
+.timedate {
+    height: 22px;
+}
+
+.time {
+    font-size: 15px; 
+    color: #EA4335
+}
+
+.tallheadpostert {
+    position: relative;
+    align-items: left;
+    display: flex;
+    flex: 1;
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    list-style: none;
+    height: 27px;
+    margin: 0px -0% 4px 0%;
+}
+
+.info {
+    display: flex;
+    margin: 2% 2%;
+}
+
+.back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

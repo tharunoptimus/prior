@@ -1,0 +1,58 @@
+{
+    "short_name": "Prior",
+    "name": "Priority Messages Notifier",
+    "icons": [
+        {
+            "src": "https://raw.githubusercontent.com/doubtda/prior/main/assets/logo.png",
+            "type": "image/png",
+            "sizes": "5000x5000",
+            "purpose": "any maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Instant Prior",
+            "short_name": "Instant",
+            "url": "https://priorapp.rf.gd/mod/instant.php",
+            "icons": [
+            { "src": "https://raw.githubusercontent.com/doubtda/prior/main/manifestIcons/instant.png", "sizes": "256x256", "type": "image/png" }
+            ]
+        },
+        {
+            "name": "Mod Page",
+            "short_name": "Mod",
+            "url": "https://priorapp.rf.gd/mod",
+            "icons": [
+            { "src": "https://raw.githubusercontent.com/doubtda/prior/main/manifestIcons/mod.png", "sizes": "256x256", "type": "image/png" }
+            ]
+        },
+        {
+            "name": "Good Man From Earth",
+            "short_name": "Good Man",
+            "url": "https://priorapp.rf.gd/good",
+            "icons": [
+            { "src": "https://raw.githubusercontent.com/doubtda/prior/main/manifestIcons/good.png", "sizes": "225x225", "type": "image/png" }
+            ]
+        },
+        {
+            "name": "Tags By Mods",
+            "short_name": "Tags",
+            "url": "https://priorapp.rf.gd/tags",
+            "icons": [
+            { "src": "https://raw.githubusercontent.com/doubtda/prior/main/manifestIcons/tags.png", "sizes": "256x256", "type": "image/png" }
+            ]
+        },
+        {
+            "name": "Settings",
+            "short_name": "Settings",
+            "url": "https://priorapp.rf.gd/settings",
+            "icons": [
+            { "src": "https://raw.githubusercontent.com/doubtda/prior/main/manifestIcons/settings.png", "sizes": "300x300", "type": "image/png" }
+            ]
+        }
+    ],
+    "start_url": "https://priorapp.rf.gd/",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
